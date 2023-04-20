@@ -59,21 +59,25 @@ app.post("/register", async (request, response) => {
   }
 });
 
-app.post("/login", async (request, response) => {
+app.post("/login/", async (request, response) => {
   const { username, password } = request.body;
-  const selectUserQuery = `
-    SELECT * FROM user WHERE username='${username}'`;
-  const dbUser = await db.get(selectUserQuery);
-  if (dbUser === undefined) {
+  let checkTheUsername = `
+            SELECT *
+            FROM user
+            WHERE username = '${username}';`;
+  let userData = await db.get(checkTheUsername);
+  if (userData === undefined) {
     response.status(400);
     response.send("Invalid user");
   } else {
-    const isPasswordMatched = await bcrypt.compare(password, dbUser.password);
+    const isPasswordMatched = await bcrypt.compare(password, userData.password);
     if (isPasswordMatched === true) {
       response.send("Login success!");
     } else {
-      response.send(400);
+      response.status(400);
       response.send("Invalid password");
     }
   }
 });
+
+module.exports = app;
