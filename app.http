@@ -9,7 +9,6 @@ Content-Type: application/json
   "gender": "female",
   "location": "Huzurabad"
 }
-
 ###
 POST http://localhost:3000/login/
 
