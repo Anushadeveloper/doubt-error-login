@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-container {
+  background-color: #f27f76;
+  padding: 3px;
+}
+
+.section2-para {
+  font-size: 12px;
+  text-align: left;
+  color: #1b1147;
+}
+
+.heading-two-section {
+  font-size: 15px;
+  text-align: left;
+  color: #1b1147;
+}
+
+.border-width-top2 {
+  border-width: 3px;
+  height: 120px;
+  width: 120px;
+  border-style: solid;
+  border-left-color: #f27f76;
+  border-top-color: #f27f76;
+  border-right-color: #f27f76;
+  margin-left: 0px;
+}
+
+.para-skills {
+  margin-top: 2px;
+  font-size: 18px;
+  color: #1b1147;
+}
+
+.line {
+  width: 5px;
+  background-color: #1b1147;
+  height: 400px;
+  margin: 0px;
+}
+
+.line1 {
+  width: 3px;
+  background-color: #1b1147;
+  height: 250px;
+  margin: 0px;
+}
+
+.four-section-icons {
+  text-align: center;
+}
+
+.hztl {
+  margin-top: 0px;
+  border-width: 4px;
+  height: 2px;
+  margin-bottom: 0px;
+  border-color: #1b1147;
+}
+
+.hztl1 {
+  border-width: 4px;
+  height: 2px;
+  margin-bottom: 0px;
+  border-color: #1b1147;
+}
+
+.top-section-three-para {
+  font-size: 12px;
+  color: #1b1147;
+}
+
+.top-section-three-para1 {
+  font-size: 7px;
+  color: #1b1147;
+}
+
+.top-section-two-para {
+  font-size: 12px;
+  color: #1b1147;
+  font-weight: 500;
+}
+
+.top-section-two-para1 {
+  font-size: 8px;
+  color: #1b1147;
+  font-weight: 200;
+}
+
+.top-section-two-heading {
+  color: #1b1147;
+  font-weight: 500;
+  font-size: 28px;
+}
+
+.top-section-two-heading1 {
+  color: #1b1147;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.years {
+  font-size: 13px;
+  color: #1b1147;
+}
+
+.para-skills-section {
+  font-size: 12px;
+  color: #1b1147;
+}
+
+.profile-icon {
+  font-size: 200px;
+  margin: 2px;
+  color: #1b1147;
+  text-align: center;
+}
+
+.profile-icon1 {
+  font-size: 120px;
+  margin: 2px;
+  color: #1b1147;
+  text-align: center;
+}
+
+.dots {
+  width: 20px;
+  height: 20px;
+}
+
+.profile-para {
+  color: #1b1147;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 2px;
+}
+
+.profile-para1 {
+  color: #1b1147;
+  font-size: 6px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.profile-container {
+  height: 70px;
+  width: 70px;
+  border-width: 4px;
+  border-color: #1b1147;
+  border-style: solid;
+  border-radius: 50px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.profile-container1 {
+  height: 70px;
+  width: 70px;
+  border-width: 4px;
+  border-color: #1b1147;
+  border-style: solid;
+  border-radius: 50px;
+  margin: 15px;
+  text-align: center;
+}
